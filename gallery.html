@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Gallery</title>
+<meta name="keywords" content="corporate blue, gallery, theme, free templates, website templates, CSS, HTML" />
+<meta name="description" content="Corporate Blue Theme is a free website template provided by tooplate.com" />
+<link href="tooplate_style.css" rel="stylesheet" type="text/css" />
+
+<script language="javascript" type="text/javascript">
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+}
+</script>
+
+<!--////// CHOOSE ONE OF THE 3 PIROBOX STYLES  \\\\\\\-->
+<link href="css_pirobox/white/style.css" media="screen" title="shadow" rel="stylesheet" type="text/css" />
+<!--<link href="css_pirobox/white/style.css" media="screen" title="white" rel="stylesheet" type="text/css" />
+<link href="css_pirobox/black/style.css" media="screen" title="black" rel="stylesheet" type="text/css" />-->
+<!--////// END  \\\\\\\-->
+
+<!--////// INCLUDE THE JS AND PIROBOX OPTION IN YOUR HEADER  \\\\\\\-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/piroBox.1_2.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$().piroBox({
+			my_speed: 600, //animation speed
+			bg_alpha: 0.5, //background opacity
+			radius: 4, //caption rounded corner
+			scrollImage : false, // true == image follows the page, false == image remains in the same open position
+			pirobox_next : 'piro_next', // Nav buttons -> piro_next == inside piroBox , piro_next_out == outside piroBox
+			pirobox_prev : 'piro_prev',// Nav buttons -> piro_prev == inside piroBox , piro_prev_out == outside piroBox
+			close_all : '.piro_close',// add class .piro_overlay(with comma)if you want overlay click close piroBox
+			slideShow : 'slideshow', // just delete slideshow between '' if you don't want it.
+			slideSpeed : 4 //slideshow duration in seconds(3 to 6 Recommended)
+	});
+});
+</script>
+<!--////// END  \\\\\\\-->
+<!--   Free Website Template by t o o p l a t e . c o m   -->
+</head>
+<body> 
+
+<div id="tooplate_header_wrapper">
+	<div id="tooplate_header">
+    
+    	<div id="site_title">
+            <h1><a href="http://www.BioDiagnostics.com"> <span>BioDiagnostics</span></a></h1>
+        </div> <!-- end of site_title -->
+        
+    </div>
+</div>
+
+<div id="tooplate_middle_wrapper">
+	<div id="tooplate_middle">
+    
+    	<img src="images/logo.png" alt="UCL Logo" />
+        
+        <div id="middle_content">
+        	<h2>Gel Electrophoresis Photographs</h2>
+            <p>See below for the experimental results.</p>
+        </div>
+    
+    </div>
+</div>
+
+<div id="tooplate_menu">
+                
+    <ul>
+        <li><a href="index.html">Importance</a></li>
+        <li><a href="submit.html">Submit</a></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="gallery.html" class="current">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>    	
+
+	<div class="cleaner"></div>
+</div> <!-- end of tooplate_menu -->
+    
+<div id="tooplate_content">
+
+         <div class="col_w460 last_col">
+            <h2>Experimental results:</h2>
+            <p>Negative and positive controls were included to avoide false-negative and false-positive results.</p>
+            <p> Below are the expected results:</p>
+               <div class="col_w460 last_col">
+            <ul class="tmo_list">
+                <li>Positive control = 315bp and 500bp</li>
+                <li>Negative control = 500bp only</li>
+                <li><i>Mycoplasma</i>-infected cell culture = 315bp and 500bp</li>
+                <li>Heavy <i>Mycoplasma</i>-infected cell culture = 315bp only</li>
+                <li><i>Mycoplasma</i>-free cell cultures = 500bp only</li>
+                <li>Inhibited PCR = no band</li>
+                </ul>                
+    </div>      
+
+    </div>  
+    <div id="gallery">
+       	<div class="g_box">
+            <a href="images/gallery/newgeltop.png" class="pirobox" title="Gel Photo 1">
+                <img src="images/gallery/newgeltop.png" alt="Gel Photo 1" />
+            </a>
+            <p>Figure 1</p>
+		</div>
+		
+        <div class="g_box">
+            <a href="images/gallery/newgelmiddle.png" class="pirobox" title="Gel Photo 2"><img src="images/gallery/newgelmiddle.png" alt="Gel Photo 2" /></a>
+            <p>Figure 2</p>
+		</div>
+		
+        <div class="g_box rm_col">
+            <a href="images/gallery/newgelbottom.png" class="pirobox" title="Gel Photo 3"><img src="images/gallery/newgelbottom.png" alt="Gel Photo 3" /></a>
+            <p>Figure 3</p>
+		</div>
+		
+        <div class="cleaner"></div>
+		
+        <div class="g_box">
+            <a href="images/gallery/oldgeltop.png" class="pirobox" title="Gel Photo 4"><img src="images/gallery/oldgeltop.png" alt="Gel Photo 4" /></a>
+            <p>Figure 4</p>
+		</div>
+		
+        <div class="g_box">
+            <a href="images/gallery/oldgelbottom.png" class="pirobox" title="Gel Photo 5"><img src="images/gallery/oldgelbottom.png" alt="Gel Photo 5" /></a>
+            <p>Figure 5</p>
+		</div>
+		
+    	<div class="cleaner"></div>
+    </div>
+	
+    <div class="cleaner"></div>
+</div>
+
+<div id="tooplate_footer_wrapper">
+
+     <div id="tooplate_footer">
+    
+        Copyright © 2048 <a href="#">BioDiagnostics</a>
+    
+    </div> <!-- end of tooplate_footer -->
+</div> 
+<!--   Free Website Template by t o o p l a t e . c o m   -->
+</body>
+</html>
